@@ -3,7 +3,7 @@ Script para Popular uma tabela no Banco de Dados MySQL
 
 Exemplo de uso:
 
- 
+
 <?php
 
 try{
