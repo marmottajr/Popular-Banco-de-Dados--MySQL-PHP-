@@ -4,7 +4,7 @@ try{
     require 'Popular.class.php';
 
 
-    $popular = new Popular("127.0.0.1:3307",'root','root','teste','teste');
+    $popular = new Popular("127.0.0.1",'root','root','teste','tabela');
 
     
     $popular->adicionarColuna("nome","string", 10, 60);
