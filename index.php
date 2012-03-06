@@ -15,7 +15,7 @@ try{
     $popular->adicionarColuna("dataNascimento","date", '2000-01-01', "2012-01-01");
     $popular->adicionarColuna("limite","decimal", 100, 1000, 2);
     
-    echo "Tempo: ". $popular->vai(1000000);
+    echo "Tempo: ". $popular->vai(1000);
     
 
 } catch (Exception $e) {
